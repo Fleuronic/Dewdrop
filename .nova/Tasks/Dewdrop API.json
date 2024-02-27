@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nswift build \\\n\t--package-path Submodules\/GeodeAPI \\\n\t-Xswiftc \"-target\" \\\n\t-Xswiftc \"arm64-apple-macosx14.0\""
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nswift package update --package-path Submodules\/GeodeAPI"
+    }
+  },
+  "openLogOnRun" : "fail"
+}
