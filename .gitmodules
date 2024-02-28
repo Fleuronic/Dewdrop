@@ -1,0 +1,3 @@
+[submodule "DewdropAPI"]
+	path = Submodules/DewdropAPI
+	url = https://github.com/Fleuronic/DewdropAPI
