@@ -19,7 +19,8 @@ let package = Package(
 	targets: [
 		.target(
 			name: "Dewdrop",
-			dependencies: ["InitMacro"]
+			dependencies: ["InitMacro"],
+			swiftSettings: [.unsafeFlags(["-Xfrontend", "-strict-concurrency=complete"])]
 		),
 	]
 )
