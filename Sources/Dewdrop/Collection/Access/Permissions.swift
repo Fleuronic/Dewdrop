@@ -2,7 +2,7 @@
 
 import InitMacro
 
-@Init public struct Permissions: OptionSet {
+@Init public struct Permissions: OptionSet, Sendable {
 	public let rawValue: UInt
 }
 
