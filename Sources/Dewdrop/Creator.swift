@@ -2,4 +2,6 @@
 
 import InitMacro
 
-@Init public struct AuthenticatedUser {}
+@Init public struct Creator {
+	public let fullName: String
+}
