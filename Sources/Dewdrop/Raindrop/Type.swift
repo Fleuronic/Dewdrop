@@ -2,9 +2,11 @@
 
 public extension Raindrop {
 	enum `Type` {
-		case list
-		case simple
-		case grid
-		case masonry
+		case link 
+		case article 
+		case image 
+		case video 
+		case document
+		case audio
 	}
 }
