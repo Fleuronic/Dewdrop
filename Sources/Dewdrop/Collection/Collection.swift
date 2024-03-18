@@ -2,8 +2,8 @@
 
 import InitMacro
 
-import struct Foundation.Date
 import struct Foundation.URL
+import struct Foundation.Date
 
 @Init public struct Collection {
 	public let title: String
