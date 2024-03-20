@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension Raindrop {
-	enum `Type` {
+	enum ItemType {
 		case link 
 		case article 
 		case image 
