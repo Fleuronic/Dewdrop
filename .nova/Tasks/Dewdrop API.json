@@ -6,7 +6,7 @@
     },
     "clean" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nswift package update --package-path Submodules\/GeodeAPI"
+      "script" : "#!\/bin\/sh\nswift package update --package-path Submodules\/DewdropAPI"
     }
   },
   "openLogOnRun" : "fail"
