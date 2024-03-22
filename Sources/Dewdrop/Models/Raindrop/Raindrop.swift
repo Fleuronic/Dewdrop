@@ -9,7 +9,7 @@ import struct Foundation.Date
 	public let url: URL
 	public let title: String
 	public let itemType: ItemType
-	public let excerpt: String
+	public let excerpt: String?
 	public let domain: String
 	public let coverURL: URL
 	public let note: String?
