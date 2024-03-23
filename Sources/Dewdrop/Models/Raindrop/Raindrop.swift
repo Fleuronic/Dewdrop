@@ -12,6 +12,7 @@ import struct Foundation.Date
 	public let excerpt: String?
 	public let domain: String
 	public let coverURL: URL
+	public let media: [Media]
 	public let note: String?
 	public let tags: [String]
 	public let cache: Cache
