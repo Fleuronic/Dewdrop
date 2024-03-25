@@ -14,7 +14,6 @@ import struct Foundation.Date
 	public let coverURL: URL
 	public let media: [Media]
 	public let note: String?
-	public let tags: [String]
 	public let cache: Cache
 	public let isFavorite: Bool
 	public let isBroken: Bool
