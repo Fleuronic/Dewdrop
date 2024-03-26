@@ -2,18 +2,20 @@
 
 import InitMacro
 
-@Init public struct Permissions: OptionSet, Sendable {
-	public let rawValue: UInt
+extension Collection.Access.Level {
+	@Init public struct Permissions: OptionSet, Sendable {
+		public let rawValue: UInt
+	}
 }
 
 // MARK -
-public extension Permissions {
+public extension Collection.Access.Level.Permissions {
 	static let readOnly: Self = .read
 	static let readWrite: Self = [.read, .write]
 }
 
 // MARK -
-private extension Permissions {
+private extension Collection.Access.Level.Permissions {
 	static let read = Self(rawValue: 1 << 0)
 	static let write = Self(rawValue: 1 << 1)
 }

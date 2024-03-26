@@ -2,7 +2,9 @@
 
 import InitMacro
 
-@Init public struct Access {
-	public let level: Level
-	public let isDraggable: Bool
+extension Collection {
+	@Init public struct Access {
+		public let level: Level
+		public let isDraggable: Bool
+	}
 }
