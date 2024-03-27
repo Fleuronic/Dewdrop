@@ -2,4 +2,6 @@
 
 import InitMacro
 
-@Init public struct User {}
+@Init public struct Account {
+	public let email: String
+}
