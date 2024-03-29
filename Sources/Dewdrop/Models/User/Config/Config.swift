@@ -8,6 +8,7 @@ extension User {
 		public let fontColor: FontColor?
 		public let brokenLevel: BrokenLevel
 		public let languageCode: String?
+		public let defaultRaindropSort: Raindrop.Sort
 		public let defaultCollectionView: Collection.View
 	}
 }
