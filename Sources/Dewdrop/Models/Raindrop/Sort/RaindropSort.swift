@@ -6,6 +6,6 @@ public extension Raindrop {
 	enum Sort {
 		case order
 		case score
-		case criterion(Criterion, SortOrder)
+		case criterion(Criterion, SortOrder = .forward)
 	}
 }

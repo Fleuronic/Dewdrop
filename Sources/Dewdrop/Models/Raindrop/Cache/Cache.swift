@@ -6,6 +6,6 @@ import struct Foundation.Date
 
 @Init public struct Cache {
 	public let status: Status
-	public let size: Int
-	public let creationDate: Date
+	public let size: Int?
+	public let creationDate: Date?
 }
