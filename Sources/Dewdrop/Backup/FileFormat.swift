@@ -1,15 +1,6 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-public enum FileFormat {
+public enum FileFormat: String {
 	case html
 	case csv
-}
-
-public extension FileFormat {
-	var `extension`: String {
-		switch self {
-		case .html: "html"
-		case .csv: "csv"
-		}
-	}
 }
