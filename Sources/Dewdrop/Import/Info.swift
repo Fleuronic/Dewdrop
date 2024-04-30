@@ -1,3 +1,5 @@
+// Copyright © Fleuronic LLC. All rights reserved.
+
 import InitMacro
 
 import struct Foundation.URL
