@@ -6,6 +6,10 @@
     },
     "clean" : {
       "enabled" : true,
+      "script" : "#!\/bin\/sh\nrm -rf .build"
+    },
+    "run" : {
+      "enabled" : true,
       "script" : "#!\/bin\/sh\nswift package update"
     }
   },
