@@ -12,6 +12,5 @@
       "enabled" : true,
       "script" : "#!\/bin\/sh\nswift package update --package-path Submodules\/DewdropDatabase"
     }
-  },
-  "openLogOnRun" : "fail"
+  }
 }
