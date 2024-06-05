@@ -15,7 +15,7 @@ let package = Package(
 			targets: ["Dewdrop"]
 		),
 	],
-	dependencies: [.package(url: "https://github.com/Fleuronic/InitMacro.git", branch: "main")],
+	dependencies: [.package(url: "https://github.com/Fleuronic/InitMacro.git", branch: "update-swift-syntax")],
 	targets: [
 		.target(
 			name: "Dewdrop",
