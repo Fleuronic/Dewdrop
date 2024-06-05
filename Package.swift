@@ -15,7 +15,7 @@ let package = Package(
 			targets: ["Dewdrop"]
 		),
 	],
-	dependencies: [.package(url: "https://github.com/LeonardoCardoso/InitMacro.git", branch: "main")],
+	dependencies: [.package(url: "https://github.com/Fleuronic/InitMacro.git", branch: "main")],
 	targets: [
 		.target(
 			name: "Dewdrop",
