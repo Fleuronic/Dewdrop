@@ -1,12 +1,13 @@
 {
+  "originHash" : "18e09f1fd8078e633ae1f838ec57bc6b3ef6a33904706f3017ba1dfc79cd637b",
   "pins" : [
     {
       "identity" : "initmacro",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/LeonardoCardoso/InitMacro.git",
+      "location" : "https://github.com/Fleuronic/InitMacro.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "41beaa5cc3f8884385df6d0acf49f79821ab2496"
+        "branch" : "update-swift-syntax",
+        "revision" : "d7010e57d835c41bd75fcb6a7553f3faad9384f0"
       }
     },
     {
@@ -14,10 +15,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-syntax",
       "state" : {
-        "revision" : "74203046135342e4a4a627476dd6caf8b28fe11b",
-        "version" : "509.0.0"
+        "revision" : "08a2f0a9a30e0f705f79c9cfaca1f68b71bdc775",
+        "version" : "510.0.0"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
