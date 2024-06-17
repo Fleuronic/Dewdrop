@@ -2,6 +2,6 @@
 
 import InitMacro
 
-@Init public struct Tag {
+@Init public struct Tag: Sendable {
 	public let count: Int
 }

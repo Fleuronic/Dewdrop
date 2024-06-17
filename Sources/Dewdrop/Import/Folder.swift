@@ -2,6 +2,6 @@
 
 import InitMacro
 
-@Init public struct Folder {
+@Init public struct Folder: Sendable {
 	public let title: String
 }

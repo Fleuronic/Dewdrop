@@ -5,7 +5,7 @@ import InitMacro
 import struct Foundation.URL
 import struct Foundation.Date
 
-@Init public struct Collection {
+@Init public struct Collection: Sendable {
 	public let title: String
 	public let count: Int
 	public let coverURL: URL?

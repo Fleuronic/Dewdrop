@@ -2,6 +2,6 @@
 
 import InitMacro
 
-@Init public struct Filter {
+@Init public struct Filter: Sendable {
 	public let count: Int
 }

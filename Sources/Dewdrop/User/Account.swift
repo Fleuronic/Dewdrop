@@ -4,7 +4,7 @@ import InitMacro
 
 import struct Foundation.Date
 
-@Init public struct Account {
+@Init public struct Account: Sendable {
 	public let user: User
 	public let email: String
 	public let hasPassword: Bool

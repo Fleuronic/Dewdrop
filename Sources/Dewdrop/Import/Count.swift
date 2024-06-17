@@ -3,7 +3,7 @@
 import InitMacro
 
 extension Import {
-	@Init public struct Count {
+	@Init public struct Count: Sendable {
 		public let bookmarks: Int
 		public let folders: Int
 		public let tags: Int

@@ -3,7 +3,7 @@
 import InitMacro
 
 extension User {
-	@Init public struct Config {
+	@Init public struct Config: Sendable {
 		public let fontSize: Int
 		public let fontColor: FontColor?
 		public let brokenLevel: BrokenLevel

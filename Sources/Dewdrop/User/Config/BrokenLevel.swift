@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension User.Config {
-	enum BrokenLevel {
+	enum BrokenLevel: Sendable {
 		case basic
 		case `default`
 		case strict

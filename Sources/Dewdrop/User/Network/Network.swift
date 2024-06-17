@@ -2,6 +2,6 @@
 
 import InitMacro
 
-@Init public struct Network {
+@Init public struct Network: Sendable {
 	public let isEnabled: Bool
 }

@@ -5,7 +5,7 @@ import InitMacro
 import struct Foundation.URL
 import struct Foundation.Date
 
-@Init public struct Raindrop {
+@Init public struct Raindrop: Sendable {
 	public let url: URL
 	public let title: String
 	public let itemType: ItemType

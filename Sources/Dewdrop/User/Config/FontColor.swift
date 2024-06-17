@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension User.Config {
-	enum FontColor: String {
+	enum FontColor: String, Sendable {
 		case sunset
 		case night
 	}

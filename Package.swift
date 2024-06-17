@@ -1,10 +1,10 @@
-// swift-tools-version:5.10
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
 	name: "Dewdrop",
 	platforms: [
-		.iOS(.v13),
+		.iOS(.v15),
 		.macOS(.v12),
 		.tvOS(.v13),
 		.watchOS(.v6),
@@ -19,8 +19,8 @@ let package = Package(
 	targets: [
 		.target(
 			name: "Dewdrop",
-			dependencies: ["InitMacro"],
-			swiftSettings: [.unsafeFlags(["-Xfrontend", "-strict-concurrency=complete"])]
-		),
-	]
+			dependencies: ["InitMacro"]
+		)
+	],
+	swiftLanguageVersions: [.v6]
 )

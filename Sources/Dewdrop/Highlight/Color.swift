@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension Highlight {
-	enum Color {
+	enum Color: Sendable {
 		case blue
 		case brown
 		case cyan

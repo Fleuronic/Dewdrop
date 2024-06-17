@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension Highlight {
-	struct Content {
+	struct Content: Sendable {
 		public let text: String
 		public let color: Color
 		public let note: String?
