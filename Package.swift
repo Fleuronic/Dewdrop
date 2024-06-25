@@ -1,4 +1,4 @@
-// swift-tools-version:6.0
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
@@ -21,6 +21,5 @@ let package = Package(
 			name: "Dewdrop",
 			dependencies: ["InitMacro"]
 		)
-	],
-	swiftLanguageVersions: [.v6]
+	]
 )
