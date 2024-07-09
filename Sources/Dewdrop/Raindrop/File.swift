@@ -2,7 +2,7 @@
 
 import InitMacro
 
-@Init public struct File {
+@Init public struct File: Sendable {
 	public let name: String
 	public let size: Int
 	public let mimeType: String

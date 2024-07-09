@@ -14,13 +14,16 @@ import struct Foundation.TimeInterval
 	private let creationDate: Date
 }
 
+// MARK: -
 public extension AccessToken {
 	var isValid: Bool {
 		creationDate.addingTimeInterval(expirationDuration) > .now
 	}
 }
 
+// MARK: -
 extension AccessToken: Decodable {
+	// MARK: Decodable
 	public init(from decoder: Decoder) throws {
 		let container = try decoder.container(keyedBy: CodingKeys.self)
 
@@ -35,6 +38,7 @@ extension AccessToken: Decodable {
 }
 
 extension AccessToken: Encodable {
+	// MARK: Encodable
 	public func encode(to encoder: Encoder) throws {
 		var container = encoder.container(keyedBy: CodingKeys.self)
 
@@ -46,6 +50,7 @@ extension AccessToken: Encodable {
 	}
 }
 
+// MARK: -
 private extension AccessToken {
 	enum CodingKeys: String, CodingKey {
 		case accessToken
