@@ -12,7 +12,7 @@ import struct Foundation.Date
 	public let colorString: String?
 	public let view: View
 	public let access: Access
-	public let sortIndex: Int?
+	public let sortIndex: Int
 	public let isPublic: Bool
 	public let isShared: Bool
 	public let isExpanded: Bool
