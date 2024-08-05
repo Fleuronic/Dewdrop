@@ -15,11 +15,17 @@ let package = Package(
 			targets: ["Dewdrop"]
 		),
 	],
-	dependencies: [.package(url: "https://github.com/Fleuronic/InitMacro.git", branch: "update-swift-syntax")],
+	dependencies: [
+		.package(url: "https://github.com/Fleuronic/InitMacro.git", branch: "main"),
+		.package(url: "https://github.com/dm-zharov/swift-security", branch: "main")
+	],
 	targets: [
 		.target(
 			name: "Dewdrop",
-			dependencies: ["InitMacro"]
+			dependencies: [
+				"InitMacro",
+				.product(name: "SwiftSecurity", package: "swift-security")
+			]
 		)
 	],
 	swiftLanguageVersions: [.v6]

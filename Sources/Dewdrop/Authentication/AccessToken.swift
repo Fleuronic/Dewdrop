@@ -2,8 +2,13 @@
 
 import InitMacro
 
+import struct Foundation.Data
 import struct Foundation.Date
 import struct Foundation.TimeInterval
+import class Foundation.JSONDecoder
+import class Foundation.JSONEncoder
+import protocol Foundation.ContiguousBytes
+import protocol SwiftSecurity.SecDataConvertible
 
 @Init public struct AccessToken: Hashable, Sendable {
 	public let accessToken: String
@@ -47,6 +52,17 @@ extension AccessToken: Encodable {
 		try container.encode(expirationDuration, forKey: .expirationDuration)
 		try container.encode(tokenType, forKey: .tokenType)
 		try container.encode(creationDate, forKey: .creationDate)
+	}
+}
+
+extension AccessToken: SecDataConvertible {
+	public init<D>(rawRepresentation data: D) throws where D : ContiguousBytes {
+		let data = try Data(rawRepresentation: data)
+		self = try JSONDecoder().decode(Self.self, from: data)
+	}
+	
+	public var rawRepresentation: Data {
+		try! JSONEncoder().encode(self)
 	}
 }
 
