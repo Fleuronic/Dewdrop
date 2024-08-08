@@ -1,13 +1,22 @@
 {
-  "originHash" : "18e09f1fd8078e633ae1f838ec57bc6b3ef6a33904706f3017ba1dfc79cd637b",
+  "originHash" : "9467c2a8c3bfe8c5f4d6691cc8e69563961b8f310d4f04c106404278bc7fd0b5",
   "pins" : [
     {
       "identity" : "initmacro",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Fleuronic/InitMacro.git",
       "state" : {
-        "branch" : "update-swift-syntax",
-        "revision" : "d7010e57d835c41bd75fcb6a7553f3faad9384f0"
+        "branch" : "main",
+        "revision" : "9b6feb35607a229194a7c28136d020f6b8ba3238"
+      }
+    },
+    {
+      "identity" : "swift-security",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dm-zharov/swift-security",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1d9d3b1aefcb8ca965a21f63c3f1b725bb5f3a3d"
       }
     },
     {
