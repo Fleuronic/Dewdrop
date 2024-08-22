@@ -1,5 +1,5 @@
 {
-  "originHash" : "9467c2a8c3bfe8c5f4d6691cc8e69563961b8f310d4f04c106404278bc7fd0b5",
+  "originHash" : "e6ebc0eaa3534352fdf434500b8e165cd1e945fe18d472e1864833c3106644b0",
   "pins" : [
     {
       "identity" : "initmacro",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/Fleuronic/InitMacro.git",
       "state" : {
         "branch" : "main",
-        "revision" : "9b6feb35607a229194a7c28136d020f6b8ba3238"
+        "revision" : "323cda3658117d4c58d597908365ab5dcb939d2e"
       }
     },
     {
