@@ -1,9 +1,11 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-extension Collection.Access.Level {
-	@Init public struct Permissions: OptionSet, Sendable {
+
+public extension Collection.Access.Level {
+	@MemberwiseInit(.public)
+	struct Permissions: OptionSet, Sendable {
 		public let rawValue: UInt
 	}
 }

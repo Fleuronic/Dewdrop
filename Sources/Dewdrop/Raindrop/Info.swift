@@ -1,11 +1,12 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 import struct Foundation.URL
 
 extension Raindrop {
-	@Init public struct Info: Sendable {
+	@MemberwiseInit(.public)
+	public struct Info: Sendable {
 		public let title: String
 		public let itemType: ItemType
 		public let excerpt: String?

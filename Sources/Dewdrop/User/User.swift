@@ -1,8 +1,9 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct User: Sendable {
+@MemberwiseInit(.public)
+	public struct User: Sendable {
 	public let fullName: String
 	public let hasProSubscription: Bool
 }

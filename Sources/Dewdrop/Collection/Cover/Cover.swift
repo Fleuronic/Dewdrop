@@ -1,9 +1,10 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 extension Collection {
-	@Init public struct Cover: Sendable {
+	@MemberwiseInit(.public)
+	public struct Cover: Sendable {
 		public let title: String
 		public let iconSets: [IconSet]
 	}

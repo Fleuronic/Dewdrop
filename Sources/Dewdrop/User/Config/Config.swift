@@ -1,9 +1,10 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 extension User {
-	@Init public struct Config: Sendable {
+	@MemberwiseInit(.public)
+	public struct Config: Sendable {
 		public let fontSize: Int
 		public let fontColor: FontColor?
 		public let brokenLevel: BrokenLevel

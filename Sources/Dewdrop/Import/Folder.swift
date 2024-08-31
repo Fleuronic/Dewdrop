@@ -1,7 +1,8 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct Folder: Sendable {
+@MemberwiseInit(.public)
+	public struct Folder: Sendable {
 	public let title: String
 }

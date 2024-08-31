@@ -1,7 +1,5 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
-
 import struct Foundation.Data
 import struct Foundation.Date
 import struct Foundation.TimeInterval
@@ -10,7 +8,7 @@ import class Foundation.JSONEncoder
 import protocol Foundation.ContiguousBytes
 import protocol SwiftSecurity.SecDataConvertible
 
-@Init public struct AccessToken: Hashable, Sendable {
+public struct AccessToken: Hashable, Sendable {
 	public let accessToken: String
 	public let refreshToken: String
 	public let expirationDuration: TimeInterval

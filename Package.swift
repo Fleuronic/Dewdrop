@@ -16,14 +16,14 @@ let package = Package(
 		),
 	],
 	dependencies: [
-		.package(url: "https://github.com/Fleuronic/InitMacro.git", branch: "main"),
+		.package(url: "https://github.com/gohanlon/swift-memberwise-init-macro", from: "0.5.0"),
 		.package(url: "https://github.com/dm-zharov/swift-security", branch: "main")
 	],
 	targets: [
 		.target(
 			name: "Dewdrop",
 			dependencies: [
-				"InitMacro",
+				.product(name: "MemberwiseInit", package: "swift-memberwise-init-macro"),
 				.product(name: "SwiftSecurity", package: "swift-security")
 			]
 		)

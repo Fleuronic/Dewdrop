@@ -1,7 +1,8 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct Tag: Sendable {
+@MemberwiseInit(.public)
+	public struct Tag: Sendable {
 	public let count: Int
 }

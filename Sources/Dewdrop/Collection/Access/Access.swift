@@ -1,9 +1,10 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 extension Collection {
-	@Init public struct Access: Sendable {
+	@MemberwiseInit(.public)
+	public struct Access: Sendable {
 		public let level: Level
 		public let isDraggable: Bool
 	}

@@ -1,10 +1,11 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 import struct Foundation.Date
 
-@Init public struct Account: Sendable {
+@MemberwiseInit(.public)
+	public struct Account: Sendable {
 	public let user: User
 	public let email: String
 	public let hasPassword: Bool

@@ -1,8 +1,9 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct Group: Sendable {
+@MemberwiseInit(.public)
+	public struct Group: Sendable {
 	public let title: String
 	public let isHidden: Bool
 	public let sortIndex: Int

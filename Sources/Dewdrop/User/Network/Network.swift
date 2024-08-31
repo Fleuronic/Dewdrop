@@ -1,7 +1,8 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct Network: Sendable {
+@MemberwiseInit(.public)
+	public struct Network: Sendable {
 	public let isEnabled: Bool
 }

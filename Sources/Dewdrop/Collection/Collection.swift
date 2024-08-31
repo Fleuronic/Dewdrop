@@ -1,11 +1,12 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 import struct Foundation.URL
 import struct Foundation.Date
 
-@Init public struct Collection: Sendable {
+@MemberwiseInit(.public)
+	public struct Collection: Sendable {
 	public let title: String
 	public let count: Int
 	public let coverURL: URL?

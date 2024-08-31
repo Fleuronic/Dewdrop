@@ -1,8 +1,9 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct File: Sendable {
+@MemberwiseInit(.public)
+	public struct File: Sendable {
 	public let name: String
 	public let size: Int
 	public let mimeType: String

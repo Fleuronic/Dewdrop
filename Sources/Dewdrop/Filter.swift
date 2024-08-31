@@ -1,7 +1,8 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
-@Init public struct Filter: Sendable {
+@MemberwiseInit(.public)
+	public struct Filter: Sendable {
 	public let count: Int
 }

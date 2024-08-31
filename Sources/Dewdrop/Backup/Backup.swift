@@ -1,9 +1,10 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 import struct Foundation.Date
 
-@Init public struct Backup: Sendable {
+@MemberwiseInit(.public)
+	public struct Backup: Sendable {
 	public let creationDate: Date
 }

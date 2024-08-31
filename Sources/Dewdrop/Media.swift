@@ -1,9 +1,10 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import InitMacro
+import MemberwiseInit
 
 import struct Foundation.URL
 
-@Init public struct Media: Sendable {
+@MemberwiseInit(.public)
+	public struct Media: Sendable {
 	public let url: URL
 }
