@@ -5,6 +5,6 @@ import MemberwiseInit
 import struct Foundation.URL
 
 @MemberwiseInit(.public)
-	public struct Media: Sendable {
+public struct Media: Sendable {
 	public let url: URL
 }

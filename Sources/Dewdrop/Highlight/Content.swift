@@ -1,19 +1,12 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
+import MemberwiseInit
+
 public extension Highlight {
+	@MemberwiseInit(.public)
 	struct Content: Sendable {
 		public let text: String
-		public let color: Color
-		public let note: String?
-		
-		public init(
-			text: String,
-			color: Highlight.Color = .yellow,
-			note: String? = nil
-		) {
-			self.text = text
-			self.color = color
-			self.note = note
-		}
+		@Init(default: Color.yellow) public let color: Color
+		@Init(default: nil) public let note: String?
 	}
 }

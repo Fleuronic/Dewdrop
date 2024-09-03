@@ -3,7 +3,7 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-	public struct User: Sendable {
+public struct User: Sendable {
 	public let fullName: String
 	public let hasProSubscription: Bool
 }

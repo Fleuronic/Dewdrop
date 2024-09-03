@@ -5,7 +5,7 @@ import MemberwiseInit
 import struct Foundation.Date
 
 @MemberwiseInit(.public)
-	public struct Account: Sendable {
+public struct Account: Sendable {
 	public let user: User
 	public let email: String
 	public let hasPassword: Bool

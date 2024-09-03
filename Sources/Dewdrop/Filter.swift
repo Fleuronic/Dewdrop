@@ -3,6 +3,6 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-	public struct Filter: Sendable {
+public struct Filter: Sendable {
 	public let count: Int
 }

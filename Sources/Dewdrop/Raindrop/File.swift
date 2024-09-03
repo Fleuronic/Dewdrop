@@ -3,7 +3,7 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-	public struct File: Sendable {
+public struct File: Sendable {
 	public let name: String
 	public let size: Int
 	public let mimeType: String

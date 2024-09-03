@@ -3,6 +3,6 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-	public struct Folder: Sendable {
+public struct Folder: Sendable {
 	public let title: String
 }

@@ -6,7 +6,7 @@ import struct Foundation.URL
 import struct Foundation.Date
 
 @MemberwiseInit(.public)
-	public struct Collection: Sendable {
+public struct Collection: Sendable {
 	public let title: String
 	public let count: Int
 	public let coverURL: URL?

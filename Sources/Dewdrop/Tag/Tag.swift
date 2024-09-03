@@ -3,6 +3,6 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-	public struct Tag: Sendable {
+public struct Tag: Sendable {
 	public let count: Int
 }
