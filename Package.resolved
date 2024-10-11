@@ -1,13 +1,13 @@
 {
-  "originHash" : "e6ebc0eaa3534352fdf434500b8e165cd1e945fe18d472e1864833c3106644b0",
+  "originHash" : "98a4c00a459ae0c77b9f8c5b3399fb55acb9ec5cc728dd8a440a51b52bdb98eb",
   "pins" : [
     {
-      "identity" : "initmacro",
+      "identity" : "swift-memberwise-init-macro",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Fleuronic/InitMacro.git",
+      "location" : "https://github.com/gohanlon/swift-memberwise-init-macro",
       "state" : {
-        "branch" : "main",
-        "revision" : "323cda3658117d4c58d597908365ab5dcb939d2e"
+        "revision" : "21ca6d8c8f9e4ce27e92f82da294e0d91953b8b6",
+        "version" : "0.5.1"
       }
     },
     {
@@ -22,10 +22,10 @@
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax",
+      "location" : "https://github.com/swiftlang/swift-syntax",
       "state" : {
-        "revision" : "08a2f0a9a30e0f705f79c9cfaca1f68b71bdc775",
-        "version" : "510.0.0"
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
       }
     }
   ],
