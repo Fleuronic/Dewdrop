@@ -54,8 +54,8 @@ extension AccessToken: Encodable {
 }
 
 extension AccessToken: SecDataConvertible {
-	public init<D>(rawRepresentation data: D) throws where D : ContiguousBytes {
-		let data = try Data(rawRepresentation: data)
+	public init<Bytes: ContiguousBytes>(rawRepresentation bytes: Bytes) throws {
+		let data = try Data(rawRepresentation: bytes)
 		self = try JSONDecoder().decode(Self.self, from: data)
 	}
 	
