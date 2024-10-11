@@ -2,7 +2,6 @@
 
 import MemberwiseInit
 
-
 public extension Collection.Access.Level {
 	@MemberwiseInit(.public)
 	struct Permissions: OptionSet, Sendable {
