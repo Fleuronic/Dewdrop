@@ -2,7 +2,7 @@
 
 import MemberwiseInit
 
-import struct Foundation.URL
+public import struct Foundation.URL
 
 @MemberwiseInit(.public)
 public struct Media: Sendable {

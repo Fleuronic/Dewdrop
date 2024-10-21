@@ -1,12 +1,12 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import struct Foundation.Data
-import struct Foundation.Date
-import struct Foundation.TimeInterval
-import class Foundation.JSONDecoder
-import class Foundation.JSONEncoder
-import protocol Foundation.ContiguousBytes
-import protocol SwiftSecurity.SecDataConvertible
+public import struct Foundation.Data
+public import struct Foundation.Date
+public import struct Foundation.TimeInterval
+public import class Foundation.JSONDecoder
+public import class Foundation.JSONEncoder
+public import protocol Foundation.ContiguousBytes
+public import protocol SwiftSecurity.SecDataConvertible
 
 public struct AccessToken: Hashable, Sendable {
 	public let accessToken: String
@@ -27,7 +27,7 @@ public extension AccessToken {
 // MARK: -
 extension AccessToken: Decodable {
 	// MARK: Decodable
-	public init(from decoder: Decoder) throws {
+	public init(from decoder: any Decoder) throws {
 		let container = try decoder.container(keyedBy: CodingKeys.self)
 		
 		try self.init(
@@ -42,7 +42,7 @@ extension AccessToken: Decodable {
 
 extension AccessToken: Encodable {
 	// MARK: Encodable
-	public func encode(to encoder: Encoder) throws {
+	public func encode(to encoder: any Encoder) throws {
 		var container = encoder.container(keyedBy: CodingKeys.self)
 		
 		try container.encode(accessToken, forKey: .accessToken)

@@ -1,5 +1,4 @@
 {
-  "originHash" : "98a4c00a459ae0c77b9f8c5b3399fb55acb9ec5cc728dd8a440a51b52bdb98eb",
   "pins" : [
     {
       "identity" : "swift-memberwise-init-macro",
@@ -16,7 +15,7 @@
       "location" : "https://github.com/dm-zharov/swift-security",
       "state" : {
         "branch" : "main",
-        "revision" : "1d9d3b1aefcb8ca965a21f63c3f1b725bb5f3a3d"
+        "revision" : "56808589e8b5b02095afdd23357df7915639c6a2"
       }
     },
     {
@@ -29,5 +28,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }

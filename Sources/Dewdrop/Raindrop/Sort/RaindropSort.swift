@@ -1,6 +1,6 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import enum Foundation.SortOrder
+public import enum Foundation.SortOrder
 
 public extension Raindrop {
 	enum Sort: Sendable {

@@ -2,8 +2,8 @@
 
 import MemberwiseInit
 
-import struct Foundation.URL
-import struct Foundation.Date
+public import struct Foundation.URL
+public import struct Foundation.Date
 
 @MemberwiseInit(.public)
 public struct Raindrop: Sendable {

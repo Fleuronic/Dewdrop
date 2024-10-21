@@ -2,7 +2,7 @@
 
 import MemberwiseInit
 
-import struct Foundation.Date
+public import struct Foundation.Date
 
 @MemberwiseInit(.public)
 public struct Highlight: Sendable {
