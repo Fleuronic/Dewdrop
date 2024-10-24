@@ -4,10 +4,10 @@ import PackageDescription
 let package = Package(
 	name: "Dewdrop",
 	platforms: [
-		.iOS(.v15),
-		.macOS(.v12),
-		.tvOS(.v13),
-		.watchOS(.v6)
+		.iOS(.v14),
+		.macOS(.v11),
+		.tvOS(.v14),
+		.watchOS(.v7)
 	],
 	products: [
 		.library(
