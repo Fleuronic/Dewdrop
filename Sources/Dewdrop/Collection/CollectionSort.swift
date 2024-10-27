@@ -1,6 +1,6 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-public import enum Foundation.SortOrder
+import enum Foundation.SortOrder
 
 public extension Collection {
 	enum Sort {

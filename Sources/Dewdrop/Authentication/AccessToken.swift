@@ -1,12 +1,12 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-public import struct Foundation.Data
-public import struct Foundation.Date
-public import struct Foundation.TimeInterval
-public import class Foundation.JSONDecoder
-public import class Foundation.JSONEncoder
-public import protocol Foundation.ContiguousBytes
-public import protocol SwiftSecurity.SecDataConvertible
+import struct Foundation.Data
+import struct Foundation.Date
+import struct Foundation.TimeInterval
+import class Foundation.JSONDecoder
+import class Foundation.JSONEncoder
+import protocol Foundation.ContiguousBytes
+import protocol SwiftSecurity.SecDataConvertible
 
 public struct AccessToken: Hashable, Sendable {
 	public let accessToken: String

@@ -2,7 +2,7 @@
 
 import MemberwiseInit
 
-public import struct Foundation.Date
+import struct Foundation.Date
 
 @MemberwiseInit(.public)
 public struct Cache: Sendable {

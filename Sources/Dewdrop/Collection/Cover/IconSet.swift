@@ -2,7 +2,7 @@
 
 import MemberwiseInit
 
-public import struct Foundation.URL
+import struct Foundation.URL
 
 extension Collection.Cover {
 	@MemberwiseInit(.public)
