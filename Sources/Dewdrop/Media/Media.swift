@@ -7,4 +7,5 @@ import struct Foundation.URL
 @MemberwiseInit(.public)
 public struct Media: Sendable {
 	public let url: URL
+	public let mediaType: MediaType?
 }
