@@ -3,7 +3,7 @@
 import enum Foundation.SortOrder
 
 public extension Collection {
-	enum Sort {
+	enum Sort: Sendable {
 		case count
 		case title(SortOrder = .forward)
 	}

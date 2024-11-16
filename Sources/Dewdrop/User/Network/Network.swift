@@ -6,3 +6,8 @@ import MemberwiseInit
 public struct Network: Sendable {
 	public let isEnabled: Bool
 }
+
+// MARK: -
+public extension Network {
+	enum Offline {}
+}
