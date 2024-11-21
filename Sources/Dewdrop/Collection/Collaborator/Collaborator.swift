@@ -4,7 +4,7 @@ import MemberwiseInit
 
 @MemberwiseInit(.public)
 public struct Collaborator: Sendable {
-	public let email: String
 	public let fullName: String
+	public let email: String
 	public let role: Role
 }
