@@ -9,4 +9,5 @@ public struct Highlight: Sendable {
 	public let content: Content
 	public let title: String?
 	public let creationDate: Date
+	public let updateDate: Date
 }
