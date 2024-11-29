@@ -2,9 +2,9 @@
 
 import MemberwiseInit
 
-extension Collection {
+public extension Collection {
 	@MemberwiseInit(.public)
-	public struct Cover: Sendable {
+	struct Cover: Sendable {
 		public let title: String
 		public let iconSets: [IconSet]
 	}

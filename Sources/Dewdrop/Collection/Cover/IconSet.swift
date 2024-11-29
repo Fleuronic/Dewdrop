@@ -4,9 +4,9 @@ import MemberwiseInit
 
 import struct Foundation.URL
 
-extension Collection.Cover {
+public extension Collection.Cover {
 	@MemberwiseInit(.public)
-	public struct IconSet: Sendable {
+	struct IconSet: Sendable {
 		public let png: URL?
 		public let svg: URL?
 	}

@@ -4,9 +4,9 @@ import MemberwiseInit
 
 import struct Foundation.URL
 
-extension Raindrop {
+public extension Raindrop {
 	@MemberwiseInit(.public)
-	public struct Info: Sendable {
+	struct Info: Sendable {
 		public let title: String
 		public let itemType: ItemType
 		public let excerpt: String?

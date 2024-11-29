@@ -2,9 +2,9 @@
 
 import MemberwiseInit
 
-extension Import {
+public extension Import {
 	@MemberwiseInit(.public)
-	public struct Count: Sendable {
+	struct Count: Sendable {
 		public let bookmarks: Int
 		public let folders: Int
 		public let tags: Int

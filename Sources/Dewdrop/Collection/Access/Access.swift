@@ -2,9 +2,9 @@
 
 import MemberwiseInit
 
-extension Collection {
+public extension Collection {
 	@MemberwiseInit(.public)
-	public struct Access: Sendable {
+	struct Access: Sendable {
 		public let level: Level
 		public let isDraggable: Bool
 	}

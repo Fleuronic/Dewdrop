@@ -2,9 +2,9 @@
 
 import MemberwiseInit
 
-extension User {
+public extension User {
 	@MemberwiseInit(.public)
-	public struct Config: Sendable {
+	struct Config: Sendable {
 		public let fontSize: Int
 		public let fontColor: FontColor?
 		public let brokenLevel: BrokenLevel
