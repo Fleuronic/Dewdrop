@@ -8,14 +8,12 @@ import struct Foundation.Date
 @MemberwiseInit(.public)
 public struct Raindrop: Sendable {
 	public let url: URL
-	public let title: String
-	public let itemType: ItemType
-	public let excerpt: String?
 	public let domain: String
-	public let coverURL: URL?
-	public let media: [Media]
+	public let info: Info
 	public let note: String?
+	public let media: [Media]
 	public let cache: Cache?
+	public let reminder: Reminder?
 	public let isFavorite: Bool
 	public let isBroken: Bool
 	public let creationDate: Date

@@ -11,6 +11,5 @@ public extension Raindrop {
 		public let itemType: ItemType
 		public let excerpt: String?
 		public let coverURL: URL?
-		public let media: [Media]
 	}
 }
