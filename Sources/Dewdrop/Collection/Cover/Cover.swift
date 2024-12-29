@@ -6,6 +6,6 @@ public extension Collection {
 	@MemberwiseInit(.public)
 	struct Cover: Sendable {
 		public let title: String
-		public let iconSets: [IconSet]
+		public let icons: [Icon]
 	}
 }
