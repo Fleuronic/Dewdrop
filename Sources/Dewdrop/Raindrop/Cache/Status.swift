@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension Cache {
-	enum Status: Sendable {
+	enum Status: Equatable, Sendable {
 		case ready
 		case retry
 		case failed

@@ -3,7 +3,7 @@
 import MemberwiseInit
 
 @MemberwiseInit(.public)
-public struct Network: Sendable {
+public struct Network: Equatable, Sendable {
 	public let isEnabled: Bool
 }
 

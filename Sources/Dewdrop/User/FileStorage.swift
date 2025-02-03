@@ -5,7 +5,7 @@ import MemberwiseInit
 import struct Foundation.Date
 
 @MemberwiseInit(.public)
-public struct FileStorage: Sendable {
+public struct FileStorage: Equatable, Sendable {
 	public let usedSpace: Int
 	public let totalSpace: Int
 	public let lastCheckpointDate: Date

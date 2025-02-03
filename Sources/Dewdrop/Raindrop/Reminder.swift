@@ -6,7 +6,7 @@ import struct Foundation.Date
 
 public extension Raindrop {
 	@MemberwiseInit(.public)
-	struct Reminder: Sendable {
+	struct Reminder: Equatable, Sendable {
 		public let date: Date
 	}
 }

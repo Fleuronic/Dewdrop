@@ -5,7 +5,7 @@ import MemberwiseInit
 import struct Foundation.URL
 
 @MemberwiseInit(.public)
-public struct User: Sendable {
+public struct User: Equatable, Sendable {
 	public let fullName: String
 	public let email: String?
 	public let avatarURL: URL?

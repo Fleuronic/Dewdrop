@@ -3,7 +3,7 @@
 import enum Foundation.SortOrder
 
 public extension Raindrop {
-	enum Sort: Sendable {
+	enum Sort: Equatable, Sendable {
 		case order
 		case score
 		case criterion(Criterion, SortOrder = .forward)

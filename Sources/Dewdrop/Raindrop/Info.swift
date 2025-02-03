@@ -6,7 +6,7 @@ import struct Foundation.URL
 
 public extension Raindrop {
 	@MemberwiseInit(.public)
-	struct Info: Sendable {
+	struct Info: Equatable, Sendable {
 		public let title: String
 		public let itemType: ItemType
 		public let excerpt: String?
