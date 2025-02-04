@@ -8,6 +8,7 @@ import struct Foundation.Date
 @dynamicMemberLookup
 public struct Account: Equatable, Sendable {
 	public let user: User
+	public let email: String
 	public let hasPassword: Bool
 	public let fileStorage: FileStorage
 	public let registrationDate: Date
