@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nswift build \\\n\t--package-path Submodules\/DewdropService \\\n\t-Xswiftc \"-target\" \\\n\t-Xswiftc \"arm64-apple-macosx14.0\""
+      "script" : "#!\/bin\/sh\nswift build --package-path Submodules\/DewdropService"
     },
     "clean" : {
       "enabled" : true,
