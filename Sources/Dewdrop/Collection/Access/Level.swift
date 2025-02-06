@@ -1,7 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
 public extension Collection.Access {
-	enum Level: Sendable {
+	enum Level: Equatable, Sendable {
 		case readOnly
 		case collaborator(Permissions)
 		case owner
