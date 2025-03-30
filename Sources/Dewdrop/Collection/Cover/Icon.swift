@@ -6,8 +6,8 @@ import struct Foundation.URL
 
 public extension Collection.Cover {
 	@MemberwiseInit(.public)
-	struct Icon: Sendable {
-		public let png: URL?
-		public let svg: URL?
+	struct Icon: Equatable, Sendable {
+		@Init(default: nil) public let png: URL?
+		@Init(default: nil) public let svg: URL?
 	}
 }
