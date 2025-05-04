@@ -1,12 +1,13 @@
 {
+  "originHash" : "0b707dc6ae7ffd5f8bd46ac1aa2357ea483a01400a2f09d41bbf7d66b7c94304",
   "pins" : [
     {
       "identity" : "swift-memberwise-init-macro",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/gohanlon/swift-memberwise-init-macro",
       "state" : {
-        "revision" : "21ca6d8c8f9e4ce27e92f82da294e0d91953b8b6",
-        "version" : "0.5.1"
+        "revision" : "47a2bdf45f1567e7324438f8482e362ee1c3fb44",
+        "version" : "0.5.2"
       }
     },
     {
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/dm-zharov/swift-security",
       "state" : {
-        "branch" : "main",
-        "revision" : "56808589e8b5b02095afdd23357df7915639c6a2"
+        "revision" : "56808589e8b5b02095afdd23357df7915639c6a2",
+        "version" : "2.4.0"
       }
     },
     {
@@ -28,5 +29,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

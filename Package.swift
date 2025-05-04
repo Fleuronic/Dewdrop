@@ -16,8 +16,8 @@ let package = Package(
 		),
 	],
 	dependencies: [
-		.package(url: "https://github.com/gohanlon/swift-memberwise-init-macro", from: "0.5.0"),
-		.package(url: "https://github.com/dm-zharov/swift-security", branch: "main")
+		.package(url: "https://github.com/gohanlon/swift-memberwise-init-macro", from: "0.5.2"),
+		.package(url: "https://github.com/dm-zharov/swift-security", from: "2.0.0")
 	],
 	targets: [
 		.target(
@@ -33,6 +33,7 @@ let package = Package(
 
 for target in package.targets {
 	target.swiftSettings = [
-		.enableUpcomingFeature("ExistentialAny")
+		.enableUpcomingFeature("ExistentialAny"),
+		.enableExperimentalFeature("StrictConcurrency")
 	]
 }
